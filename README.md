@@ -1,4 +1,4 @@
-SSRdev 4.4: A Platform for SSR Marker Development and Validation
+SSRdev 4.5: A Platform for SSR Marker Development and Validation
 ________________________________________
 Table of Contents
 1.	Introduction
