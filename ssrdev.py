@@ -1393,6 +1393,9 @@ class SSRdevApp:
                 raw_motif = match.group(1).upper()
                 motif     = self._canonical_motif(raw_motif)
 
+                if motif_len > 1 and len(set(raw_motif)) == 1:
+                    continue
+
                 all_ssrs.append({
                     'type':     rtype,
                     'start':    start,
